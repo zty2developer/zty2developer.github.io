@@ -15,8 +15,8 @@ sudo service squid start
 sudo systemctl status squid
 
 # xx是用作代理的本机ip
-export http proxy="xx:3128"
-export https proxy="xx:3128"
+export http_proxy="xx:3128"
+export https_proxy="xx:3128"
 
 # 新建文件
 vim /etc/apt/apt.conf.d/98https-http-proxy
