@@ -4,6 +4,7 @@ title:  "Connect to the internet using proxy for LAN server"
 date:   2022-05-31 19:28:13 +0800
 categories: jekyll update
 ---
+A Post
 
 {% highlight ruby %}
 # 以下所有操作都在服务器上进行
