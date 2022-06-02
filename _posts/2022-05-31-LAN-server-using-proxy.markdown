@@ -22,10 +22,11 @@ categories: jekyll update
 
 ### 2.Operations on Proxy Server
 
-```
+```shell
 # 安装squid，如果自己电脑是Windows的话自己去网上下载安装
 sudo apt install squid
 sudo service squid start
+
 # 查看Squid运行状态
 sudo systemctl status squid
 ```
